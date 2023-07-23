@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
@@ -17,8 +17,13 @@ import {
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
+  // const location = useLocation();
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+
+  // useEffect(() => {
+  //   console.log("===location===: ", location.pathname);
+  // }, [location])
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -55,7 +60,9 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                {/* <div style={{ borderBottom: location.pathname === "/" ? '1px solid white' : 'unset' }}> */}
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                {/* </div> */}
               </Nav.Link>
             </Nav.Item>
 

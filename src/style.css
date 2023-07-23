@@ -187,7 +187,8 @@ button:focus {
   z-index: 1;
 }
 
-.navbar-nav .nav-item a::after {
+.navbar-nav .nav-item a::after ,
+.navbar-nav .nav-item a:focus-visible::after {
   content: "";
   position: relative;
   display: block;
