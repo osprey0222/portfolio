@@ -73,7 +73,7 @@ function Home2() {
                 >
                   <AiOutlineMail />
                 </div>
-                <div className="email-address">ospray0222@gmail.com</div>
+                <div className="email-address">smartunity0222@gmail.com</div>
               </li>
               {/* <li className="social-icons">
                 <a
