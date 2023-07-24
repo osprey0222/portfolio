@@ -19,12 +19,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a highly skilled senior Unity developer with over 7 years of experience in the Unity Engine.
+              Throughout my career, I have honed my expertise in developing immersive and interactive experiences for various platforms, including mobile, PC, and virtual reality.🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C#, Javascript and Go. </b>
+                <b className="purple"> C#, Javascript and Python. </b>
               </i>
               <br />
               <br />
