@@ -1,20 +1,14 @@
 [
+
   {
-    "title": "ECommerce Website",
-    "ghLink": "https://github.com/osprey222/ecommerce",
-    "short-detail": "The integration of the MERN stack ensures that my ecommerce website is highly functional, secure, and user-friendly. From browsing and searching for products to adding items to the cart, making secure payments, and tracking orders, my website provides a comprehensive and immersive online shopping solution.\n",
-    "long-detail": "I have built scalable and high-performance applications, handling concurrent requests efficiently and ensuring fast response times. I have used React.js, a popular JavaScript library to  powers the frontend of my website. \nI have used Express.js, a minimalist web application framework, provides the backend infrastructure for my website.\nI have used Node.js, a powerful JavaScript runtime environment to implement server-side platform for my website. ",
-    "png": "ecommerce.png",
-    "gif": "ecommerce.gif"
+    "title": "Web3 Unity",
+    "ghLink": "https://github.com/osprey222/web3-unity",
+    "short-detail": "The Moralis Web3 Unity SDK provides easy to use methods that make integrating your application with Moralis a snap. You will find that the.NET SDK works much the same as in JavaScript. For use in Unity3D, we have added additional quick start objects for integrating the Moralis Web3 Unity SDK in a Unity3D application. For the examples that follow we provide examples of how to use the Moralis Web3 Unity SDK using the provided Moralis Unity3D quick start tools.\n",
+    "long-detail": "I have provided the AuthenticationKit prefab to make authenticating to Moralis with the crypto wallet a snap.  Just drag the prefab from ackages\\io.moralis.web3-unity-sdk\\Runtime\\Kits\\AuthenticationKit\\Prefabs into the authentication screen. That is all you need to do to get started. The AuthenticationKit.Prefab is not needed anywhere else in the game.  Initialize Client You do not have to use the AuthenticationKit. You can create a completely custom authentication process if you wish and initialize Moralis at the place and time of a choosing. Authentication is handled in a similar manner in both the SDK and the Unity3d. There is no direct manner to interact securely with a wallet in a .NET application so the Moralis Web3 Unity SDK interacts with wallets in a loosely coupled manner. For the Unity3D boilerplate application, and the other examples we provide, we use Wallet Connect to facilitate interaction with wallets. ",
+    "png": "web3-unity.png",
+    "gif": "web3-unity.gif"
   },
-  {
-    "title": "Invoice Website",
-    "ghLink": "https://github.com/osprey222/fullstack-project",
-    "short-detail": "I have developed the  invoice website using the powerful MERN stack.\n This website combines the best of modern technologies to provide a seamless and efficient invoicing solution.",
-    "long-detail": "I have used MongoDB as the database for my website, offering a flexible and scalable solution for storing and managing invoice data. \nI have also used routing, middleware for seamless communication between the client and the server.\nWith its robust technical foundation and seamless integration of the MERN stack, our invoice website is designed to streamline your invoicing process and enhance your business operations. ",
-    "png": "invoice.png",
-    "gif": "invoice.gif"
-  },
+
  {
    "title": "Timbo and Friends",
    "ghLink": "https://github.com/osprey222/Timbo-Friends",
@@ -23,6 +17,14 @@
    "png": "runner.png",
    "gif": "runner.gif"
  },
+ {
+  "title": "ECommerce Website",
+  "ghLink": "https://github.com/osprey222/ecommerce",
+  "short-detail": "The integration of the MERN stack ensures that my ecommerce website is highly functional, secure, and user-friendly. From browsing and searching for products to adding items to the cart, making secure payments, and tracking orders, my website provides a comprehensive and immersive online shopping solution.\n",
+  "long-detail": "The Moralis Web3 Unity SDK Client provides a way to easily interact with Moralis database and the Web3API. For Unity3D we have provided a singleton wrapper named Moralis that makes it easy to initialize the MoralisClient and then access it from anywhere in your Unity3D application. ",
+  "png": "ecommerce.png",
+  "gif": "ecommerce.gif"
+},
  {
    "title": "3D Survival Game",
    "ghLink": "https://github.com/osprey222/survival-game",
@@ -46,6 +48,14 @@
    "long-detail": "I have  incorporated sound effects, background music, and voiceovers into the game. I have created and designed game levels, environments, and objects in a visual interface using Unity's Scene Editor\nI have used the Unity's features such as terrain sculpting, object placement, lighting, and camera setup to implement the creation of detailed and visually appealing 3D game worlds.",
    "png": "tower-defence.png",
    "gif": "tower-defence.gif"
- }
+ },
+ {
+  "title": "Invoice Website",
+  "ghLink": "https://github.com/osprey222/fullstack-project",
+  "short-detail": "I have developed the  invoice website using the powerful MERN stack.\n This website combines the best of modern technologies to provide a seamless and efficient invoicing solution.",
+  "long-detail": "I have used MongoDB as the database for my website, offering a flexible and scalable solution for storing and managing invoice data. \nI have also used routing, middleware for seamless communication between the client and the server.\nWith its robust technical foundation and seamless integration of the MERN stack, our invoice website is designed to streamline your invoicing process and enhance your business operations. ",
+  "png": "invoice.png",
+  "gif": "invoice.gif"
+}
 
 ]
