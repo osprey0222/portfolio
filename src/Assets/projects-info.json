@@ -6,7 +6,8 @@
     "short-detail": "The Moralis Web3 Unity SDK provides easy to use methods that make integrating your application with Moralis a snap. You will find that the.NET SDK works much the same as in JavaScript. For use in Unity3D, we have added additional quick start objects for integrating the Moralis Web3 Unity SDK in a Unity3D application. For the examples that follow we provide examples of how to use the Moralis Web3 Unity SDK using the provided Moralis Unity3D quick start tools.\n",
     "long-detail": "I have provided the AuthenticationKit prefab to make authenticating to Moralis with the crypto wallet a snap.  Just drag the prefab from ackages\\io.moralis.web3-unity-sdk\\Runtime\\Kits\\AuthenticationKit\\Prefabs into the authentication screen. That is all you need to do to get started. The AuthenticationKit.Prefab is not needed anywhere else in the game.  Initialize Client You do not have to use the AuthenticationKit. You can create a completely custom authentication process if you wish and initialize Moralis at the place and time of a choosing. Authentication is handled in a similar manner in both the SDK and the Unity3d. There is no direct manner to interact securely with a wallet in a .NET application so the Moralis Web3 Unity SDK interacts with wallets in a loosely coupled manner. For the Unity3D boilerplate application, and the other examples we provide, we use Wallet Connect to facilitate interaction with wallets. ",
     "png": "web3-unity.png",
-    "gif": "web3-unity.gif"
+    "gif": "web3-unity.gif",
+    "demoLink":""
   },
 
  {
@@ -15,7 +16,8 @@
    "short-detail": "In Timbo and Frineds, you will take control of a dynamic and agile character, sprinting through visually stunning and meticulously designed levels.\n With smooth and responsive controls, you will have full command over your character's movements, allowing you to dodge obstacles, and slide under barriers with precision and finesse.",
    "long-detail": "This is designed with mobile devices in mind, ensuring a seamless and optimized experience on the go. Whether you're playing on a smartphone or tablet, you can enjoy the game's smooth performance and responsive controls, allowing you to fully immerse yourself in the action.  I have used Sprite Renderer. Unity's built-in Sprite Renderer component is essential for rendering 2D graphics in the game.\nI have imported and manipulated sprites, apply animations, and control their positioning, scaling, and rotation within the game world.",
    "png": "runner.png",
-   "gif": "runner.gif"
+   "gif": "runner.gif",
+   "demoLink":"https://gd.games/timbo-and-friends/napoleons-homerun"
  },
  {
   "title": "ECommerce Website",
@@ -23,7 +25,8 @@
   "short-detail": "The integration of the MERN stack ensures that my ecommerce website is highly functional, secure, and user-friendly. From browsing and searching for products to adding items to the cart, making secure payments, and tracking orders, my website provides a comprehensive and immersive online shopping solution.\n",
   "long-detail": "The Moralis Web3 Unity SDK Client provides a way to easily interact with Moralis database and the Web3API. For Unity3D we have provided a singleton wrapper named Moralis that makes it easy to initialize the MoralisClient and then access it from anywhere in your Unity3D application. ",
   "png": "ecommerce.png",
-  "gif": "ecommerce.gif"
+  "gif": "ecommerce.gif",
+  "demoLink":""
 },
  {
    "title": "3D Survival Game",
@@ -31,7 +34,8 @@
    "short-detail": "I have developed a simple survival game. You can fight with monsters like the bat, rabbit and ghosts.\n The soldier's movement is good, and the bullet effect is realistic.",
    "long-detail": "I have simulated realistic physics interactions in the game.\n I have written efficient and maintainable code for implementing game logic, physics, AI, and other functionalities. I have used the physics engine to implement gravity, collisions, forces, and other physical interactions to make the game world feel more lifelike. I have utilized real-time rendering techniques, post-processing effects, lighting systems, and material shaders to create stunning and realistic visuals.",
    "png": "survival.png",
-   "gif": "survival.gif"
+   "gif": "survival.gif",
+   "demoLink":""
  },
  {
    "title": "Tiny Puzzle Game",
@@ -39,7 +43,8 @@
    "short-detail": "With its stunning visuals, immersive sound effects, and captivating gameplay, 2D puzzle game offers an unforgettable gaming experience. Whether you're a puzzle enthusiast or simply looking for a fun and challenging game, our Unity Engine-powered creation is sure to provide hours of entertainment.",
    "long-detail": "I have created and control animations for game objects.\n I have used C# as its primary programming language. C# is a versatile and object-oriented language.\nI have written  efficient and maintainable code for implementing game logic, mechanics, and interactions.",
    "png": "puzzle.png",
-   "gif": "puzzle.gif"
+   "gif": "puzzle.gif",
+   "demoLink":"https://www.nintendo.com/store/products/flipon-switch/"
  },
  {
    "title": "3D Tower Defence Game",
@@ -47,7 +52,8 @@
    "short-detail": "Welcome to my thrilling Tower Defense 3D game, where you will test your strategic skills against hordes of terrifying monsters.\n As the commander of a formidable army, your mission is to defend your tower from waves of wolves, and zombies that seek to destroy everything in their path.",
    "long-detail": "I have  incorporated sound effects, background music, and voiceovers into the game. I have created and designed game levels, environments, and objects in a visual interface using Unity's Scene Editor\nI have used the Unity's features such as terrain sculpting, object placement, lighting, and camera setup to implement the creation of detailed and visually appealing 3D game worlds.",
    "png": "tower-defence.png",
-   "gif": "tower-defence.gif"
+   "gif": "tower-defence.gif",
+   "demoLink":"http://prabdhaliwal.herokuapp.com/tower-defence-3d-enemy-wave"
  },
  {
   "title": "Invoice Website",
@@ -55,7 +61,8 @@
   "short-detail": "I have developed the  invoice website using the powerful MERN stack.\n This website combines the best of modern technologies to provide a seamless and efficient invoicing solution.",
   "long-detail": "I have used MongoDB as the database for my website, offering a flexible and scalable solution for storing and managing invoice data. \nI have also used routing, middleware for seamless communication between the client and the server.\nWith its robust technical foundation and seamless integration of the MERN stack, our invoice website is designed to streamline your invoicing process and enhance your business operations. ",
   "png": "invoice.png",
-  "gif": "invoice.gif"
+  "gif": "invoice.gif",
+  "demoLink":""
 }
 
 ]

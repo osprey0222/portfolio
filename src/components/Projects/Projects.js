@@ -28,7 +28,8 @@ function Projects() {
                   title={value["title"]}
                   description={value["short-detail"]}
                   ghLink={value["ghLink"]}
-                  demoLink={`/project-detail?projectKey=${key}`}
+                  detail={`/project-detail?projectKey=${key}`}
+                  demoLink={value["demoLink"]}
                 />
               </Col>
             );

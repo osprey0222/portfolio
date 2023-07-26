@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Link to={props.demoLink}>
+      <Link to={props.detail}>
         <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       </Link>
 
@@ -26,18 +26,18 @@ function ProjectCards(props) {
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
-        {/* {!props.isBlog && props.demoLink && (
+        {!props.isBlog && props.demoLink && (
 
           <Button
             variant="primary"
-            // href={props.demoLink}
-            // target="_blank"
+            href={props.demoLink}
+            target="_blank"
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"Detail"}
+            {"Demo"}
           </Button>
-        )} */}
+        )}
       </Card.Body>
     </Card>
   );
