@@ -3,13 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import HomeCarousel from "./HomeCarousel";
 import Type from "./Type";
+import Projects from "../Projects/Projects";
 
 function Home() {
   return (
     <section>
-      <HomeCarousel />
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -43,6 +42,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Projects />
       <Home2 />
     </section>
   );
