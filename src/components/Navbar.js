@@ -6,9 +6,9 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link, useLocation } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import { FaGithub, FaLinkedin, FaMailBulk, FaMailchimp } from "react-icons/fa";
 import {
-  AiFillStar,
+  AiOutlineMail,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -101,11 +101,11 @@ function NavBar() {
 
             {/* <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://github.com/osprey222"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <FaGithub/>
               </Nav.Link>
             </Nav.Item> */}
 
@@ -115,8 +115,28 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <FaGithub style={{ fontSize: "1.2em" }} />{" "}
+                {/* <AiFillStar style={{ fontSize: "1.1em" }} /> */}
+              </Button>
+            </Nav.Item>
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://www.linkedin.com/in/asher-ito-4905bb285/"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <FaLinkedin style={{ fontSize: "1.2em" }} />{" "}
+                {/* <AiFillStar style={{ fontSize: "1.1em" }} /> */}
+              </Button>
+            </Nav.Item>
+            <Nav.Item className="fork-btn">
+              <Button
+                className="fork-btn-inner"
+                href={"mailto:smartunity0222@gmail.com"}
+              >
+                <AiOutlineMail style={{ fontSize: "1.2em" }} />{" "}
+
+                {/* <AiFillStar style={{ fontSize: "1.1em" }} /> */}
               </Button>
             </Nav.Item>
           </Nav>

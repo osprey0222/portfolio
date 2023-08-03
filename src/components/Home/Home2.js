@@ -19,8 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a highly skilled senior Unity developer with over 7 years of experience in the Unity Engine.
-              Throughout my career, I have honed my expertise in developing immersive and interactive experiences for various platforms, including mobile, PC, and virtual reality.🤷‍♂️
+              My name is Asher Ito, and over the years I’ve participated in different projects, for different clients.🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
