@@ -6,7 +6,7 @@ import Particle from "../Particle";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid style={{ paddingTop: "130px", paddingBottom: "30px" }}>
       <Particle />
       <Container>
         <h1 className="project-heading">
